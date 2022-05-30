@@ -1,0 +1,97 @@
+body{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#TagLineBox{
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    text-shadow: 2px 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    font-family: 'Monoton', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Titan One', cursive;
+}
+#TagLine{
+    color:deeppink;
+}
+#firstLine{
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+#MainBox{
+    background-color: darkslateblue;
+    text-shadow: 2px 2px white;
+    color:deeppink;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    border: 2px solid black;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 1.5rem;
+
+
+}
+#input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border: 2px solid ;
+    height: 3rem;
+    width: 6rem;
+    color: white;
+    background-color: deeppink;
+}
+#img{
+    margin: 1rem;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 5rem;
+    border: 2px solid blue;
+    background-color: deeppink;
+    margin: 1rem;
+    border-radius: 0.4rem;
+}
+@media (max-width:768px) {
+
+    #TagLineBox{
+        font-size: 1.2rem;
+    }
+    #MainBox{
+        width: 30rem;
+    }
+}
+@media (min-width:375px) and  (max-width:768px) {
+
+    #TagLineBox{
+        margin: 2.5rem;
+        font-size: 0.9rem;
+    }
+    #MainBox{
+        width: 20rem;
+    }
+}
+@media (max-width:320px){
+ 
+       #TagLineBox{
+        margin:2rem;
+        font-size: 0.9rem;
+    }
+    #MainBox{
+        width: 15rem;
+    }
+}
